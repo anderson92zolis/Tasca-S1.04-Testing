@@ -14,11 +14,11 @@ public class CalculoDni {
 		
 		String tableLetterofDni= "TRWAGMYFPDXBNJZSQVHLCKE";
 		
-		int moduloNumeroDni= numeroDNI%23;
+		int moduloNumeroDni = numeroDNI%23;
 		
 		char letterDNI = tableLetterofDni.charAt(moduloNumeroDni);
 		
 		return letterDNI;
 	}
-	
+
 }
