@@ -7,16 +7,15 @@ public class ArrayOutOfBoundException {
 	
 	public static  ArrayList<String> compuebaArrayIndexOutOfBoundsException() throws ArrayIndexOutOfBoundsException {
 		
-		ArrayList<String> mi_numbers= new ArrayList<String>();
+		ArrayList<String> my_programs= new ArrayList<String>();
 		
-		for (int i = 0; i < mi_numbers.size(); i++) {
-			System.out.println(mi_numbers.get(i));
-			
+		//mi_numbers.add("R");
+		
+		for (int i = 0; i < my_programs.size(); i++) {
+			System.out.println(my_programs.get(i));
 		} 
 		
-		throw new ArrayIndexOutOfBoundsException("crea la clase ArrayIndexOutOfBoundsException");
+		throw new ArrayIndexOutOfBoundsException("llanci una ArrayIndexOutOfBoundsException");
 	
 		}
-	
-	// crear el metodo que retorne un Array
 }
