@@ -2,15 +2,10 @@ package n1exercici2;
 
 public class CalculoDni {
 	
-	private char lletraDNI;
-
-	public CalculoDni(int numeroDni) {
-		
-		lletraDNI = calculaLletraDNI(numeroDni);
-	} 
+	public CalculoDni() {} 
 	
 	
-	public char calculaLletraDNI(int numeroDNI) {
+	public static char calculaLletraDNI(int numeroDNI) {
 		
 		String tableLetterofDni= "TRWAGMYFPDXBNJZSQVHLCKE";
 		
