@@ -17,7 +17,7 @@ class LengthOfStringTest {
 	}
 	@Test
 	void testLengthOfString() {
-		assertEquals(6,LengthOfString.LengthOfString("MORDOR"));
+		assertEquals(8,LengthOfString.LengthOfString("MORDOR"));
 	}
 
 }
