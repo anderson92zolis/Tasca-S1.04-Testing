@@ -1,21 +1,20 @@
 package n1exercici3;
 
-import java.util.ArrayList;
 
 public class ArrayOutOfBoundException {
 	
+	public ArrayOutOfBoundException() {}
 	
-	public static  ArrayList<String> compuebaArrayIndexOutOfBoundsException() throws ArrayIndexOutOfBoundsException {
-		
-		ArrayList<String> my_programs= new ArrayList<String>();
-		
-		//mi_numbers.add("R");
-		
-		for (int i = 0; i < my_programs.size(); i++) {
-			System.out.println(my_programs.get(i));
-		} 
-		
-		throw new ArrayIndexOutOfBoundsException("llanci una ArrayIndexOutOfBoundsException");
+	public String compuebaArrayIndexOutOfBoundsException(int index) throws ArrayIndexOutOfBoundsException {
 	
+		String[] carsArray= {"Volvo", "BMW", "Ford", "Mazda"}; // length =4
+		
+		if( index > carsArray.length ||  index <0 ) {
+			
+			throw new ArrayIndexOutOfBoundsException("llanci una ArrayIndexOutOfBoundsException");
+		
 		}
+		return carsArray[index];
+	} 
+	
 }

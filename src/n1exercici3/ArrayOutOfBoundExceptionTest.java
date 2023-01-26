@@ -6,7 +6,9 @@ public class ArrayOutOfBoundExceptionTest {
 	@Test (expected = ArrayIndexOutOfBoundsException.class)
 	public void testCompuebaArrayIndexOutOfBoundsException() {
 		
-		ArrayOutOfBoundException.compuebaArrayIndexOutOfBoundsException();
+		ArrayOutOfBoundException firstTest= new ArrayOutOfBoundException();
+			
+				firstTest.compuebaArrayIndexOutOfBoundsException(6);
 		
 	}
 
